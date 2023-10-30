@@ -1,0 +1,121 @@
+/* Reset the default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  background-color: #EFEFEF; /* Changer la couleur du fond ici */
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+  line-height: 1.6; /* Add line-height for better readability */
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #0074D9;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #0074D9;
+  font-size: 20px;
+  font-weight: 500; /* You had two font-weight properties, I removed one */
+}
+
+/* Link styles */
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #0074D9;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #000; /* Change text color on hover */
+}
+
+/* Container styles for content */
+.container {
+  max-width: 700px; /* Use max-width for better responsiveness */
+  margin: 40px auto;
+  padding: 20px; /* Add some padding for spacing */
+  background-color: #fff; /* Add a background color to the container */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Responsive adjustments for the container */
+@media (max-width: 760px) {
+  .container {
+    max-width: 400px; /* Adjust max-width for smaller screens */
+}
+  }
+}
+
+/* Card styles */
+.card-white {
+  background-color: white;
+  padding: 20px; /* Adjust padding for spacing */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Circular image styles */
+.img-circle {
+  border-radius: 50%;
+}
+
+/* Button styles */
+.btn-blue {
+  background-color: #0074D9;
+  color: lightgrey;
+  padding: 15px 20px;
+  border-radius: 4px;
+  display: inline-block; /* Make the button inline-block */
+  text-align: center;
+  text-decoration: none; /* Add this to remove underlines from links */
+}
+
+.btn-blue:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* List styles */
+.list-inline {
+  list-style: none; /* Supprime les boules de points */
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+  color: #000;
+}
+
+/* Introduction paragraph styles */
+#introduction p {
+  margin-bottom: 20px; /* Reduce margin for spacing */
+}
